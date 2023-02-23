@@ -1,11 +1,12 @@
 {
-  "name": "@explorables/explorable_template",
-  "title": "Explorable Template",
+  "name": "@explorables/critically_inflammatory",
+  "title": "Critically Inflammatory - A Forrest Fire Model",
   "version": "1.0.1",
-  "description": "This is a template for making a complexity explorable. The template can be used to create a new complexity explorable. This template implements the Vicsek Model.",
+   "license": "CC-BY-4.0",
+  "description": "This explorable illustrates, as a representative of a broad range of dynamic phenomena, a simple model for the spatial spread of forest fires and the dynamic patterns they generate.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dirkbrockmann/explorable_template.git"
+    "url": "git+https://github.com/dirkbrockmann/critically_inflammatory.git"
   },
   "author": "Dirk Brockmann (https://rocs.hu-berlin.de)",
   "main": "./dist/index.js",
@@ -21,10 +22,10 @@
     "explorables",
     "visualization"
   ],
-  "license": "ISC",
   "dependencies": {
     "d3": "^7.8.2",
     "d3-widgets": "^1.0.16",
+    "lattices": "^1.0.14",
     "lodash-es": "^4.17.21"
   },
   "devDependencies": {
