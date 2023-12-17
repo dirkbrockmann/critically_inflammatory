@@ -1,8 +1,8 @@
 {
   "name": "@explorables/critically_inflammatory",
   "title": "Critically Inflammatory - A Forrest Fire Model",
-  "version": "1.0.1",
-   "license": "CC-BY-4.0",
+  "version": "1.0.2",
+  "license": "CC-BY-4.0",
   "description": "This explorable illustrates, as a representative of a broad range of dynamic phenomena, a simple model for the spatial spread of forest fires and the dynamic patterns they generate.",
   "repository": {
     "type": "git",
