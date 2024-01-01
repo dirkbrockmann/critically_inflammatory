@@ -10,7 +10,6 @@ var timer = {}
 
 const startstop = (display,config) => {
 	ct.go.value() == 1 ? timer = interval(()=>iterate(display,config),cfg.simulation.delay) : timer.stop()
-
 }
 
 export default (display,controls,config) => {

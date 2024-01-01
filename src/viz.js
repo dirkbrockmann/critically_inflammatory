@@ -15,16 +15,9 @@ const C = d3.scaleOrdinal().domain(["empty","tree"])
 const C_fire = d3.scaleLinear().domain([0,param.burntime])
 	.range(["black","red"])
 
+function agent_color(a){ return a.state=="fire" ? C_fire(a.burntime) : C(a.state) }
 
-function agent_color(a){
-	return a.state=="fire" ? C_fire(a.burntime) : C(a.state)
-}
-
-const update = (display,config) => {
-	
-	
-	
-}
+const update = (display,config) => {};
 
 const initialize = (display,config) => {
 
@@ -46,16 +39,11 @@ const initialize = (display,config) => {
 		ctx.lineWidth = 0;
 		ctx.fillRect(X(c[0].x),X(c[0].y),X(c[2].x)-X(c[0].x),X(c[2].y)-X(c[0].y))
 	})
-	
-	ctx.strokeStyle = "black";
-	ctx.lineWidth = 4;
-	ctx.strokeRect(0, 0, W, H);
-	
+
 };
 
 const go = (display,config) => {
-	
-	
+		
 	ctx.clearRect(0, 0, W, H);
 	
 	agents.forEach(d=>{
@@ -67,12 +55,7 @@ const go = (display,config) => {
 		ctx.strokeStyle=color;
 		ctx.lineWidth = 0;
 		ctx.fillRect(X(c[0].x),X(c[0].y),X(c[2].x)-X(c[0].x),X(c[2].y)-X(c[0].y))
-	})
-	
-	ctx.strokeStyle = "black";
-	ctx.lineWidth = 4;
-	ctx.strokeRect(0, 0, W, H);
-	
+	})	
 }
 
 
