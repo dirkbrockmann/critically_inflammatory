@@ -1,13 +1,13 @@
 {
-  "name": "@explorables/critically_inflammatory",
-  "title": "Critically Inflammatory",
-  "subtitle": "A Forrest Fire Model",
+  "name": "critically_inflammatory",
+  "title": "Kritisch entzündlich",
+  "subtitle": "Ein Modell für Waldbrände",
   "version": "1.1.4",
   "license": "CC-BY-4.0",
-  "description": "This explorable illustrates, as a representative of a broad range of dynamic phenomena, a simple model for the spatial spread of forest fires and the dynamic patterns they generate.",
+  "description": "Das Explorable beschreibt ein einfaches Modell zur Dynamik von Waldbränden. Auf ganz natürliche Art und Weise führen seltene Blitzeinschläge, langsamer Nachwuchs und lokale Brandausbreitung zu einem fraktalen Bewuchsmuster wie man es aus der Natur kennt.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dirkbrockmann/critically_inflammatory.git"
+    "url": "git+https://github.com/dirkbrockmann/critically_inflammatory.git#cosmo"
   },
   "author": "Dirk Brockmann (https://rocs.hu-berlin.de)",
   "main": "./dist/index.js",
